@@ -1,0 +1,101 @@
+.home {
+    position: absolute;
+    height: 100%;
+    background-color: #ececec;
+    padding: 0;
+}
+
+.home-dark-side {
+    position: relative;
+    padding-right: 50px;
+    width: 65%;
+    height: 100%;
+    background-image: url(../../../assets/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.social-link {
+    position: relative;
+    height: 50px;
+    float: right;
+    animation: fadeleft;
+    animation-duration: 1s;
+}
+
+@keyframes fadeleft {
+    from { right: 50px; }
+    to { right: 0; }
+}
+
+@-moz-keyframes fadeleft {
+    from { right: 50px; }
+    to { right: 0; }
+}
+
+.social-link ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.social-link ul li a i {
+    font-size: 18px;
+    color: #ececec;
+}
+
+.social-link ul li a i:hover {
+    font-size: 18px;
+    color: #2bcbeb;
+}
+
+.home-blue-side {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    background-color: rgba(43, 203, 235, 0.7);
+    padding: 20px;
+    /* left: 10px; */
+    top: 15%;
+    box-shadow: 0 3px 10px #222222;
+    animation: fadeup;
+    animation-duration: 1s;
+}
+
+@keyframes fadeup {
+    from { top: 20%; opacity: 0.1; }
+    to { top: 15%; opacity: 1 }
+}
+@-moz-keyframes fadeup {
+    from { top: 30%; opacity: 0.1; }
+    to { top: 15%; opacity: 1 }
+}
+
+.home-blue-side h1 {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    animation: fadeup-text;
+    animation-duration: 3s;
+}
+
+.home-blue-side h5 {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    animation: fadeup-text;
+    animation-duration:3s;
+}
+
+@keyframes fadeup-text {
+    from { top: 40%; opacity: 0.1; }
+    to { top: 0; opacity: 1 }
+}
+@-moz-keyframes fadeup {
+    from { top: 20%; opacity: 0.1; }
+    to { top: 15%; opacity: 1 }
+}
+
