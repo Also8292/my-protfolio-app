@@ -50,6 +50,17 @@
     color: #2bcbeb;
 }
 
+.code-example {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    top: 10%;
+    left: 250px;
+    overflow: hidden;
+    animation: fadeup;
+    animation-duration: 1s;
+}
+
 .home-blue-side {
     position: relative;
     width: 50%;
@@ -57,7 +68,7 @@
     background-color: rgba(43, 203, 235, 0.7);
     padding: 20px;
     /* left: 10px; */
-    top: 15%;
+    top: 10%;
     box-shadow: 0 3px 10px #222222;
     animation: fadeup;
     animation-duration: 1s;
@@ -65,11 +76,11 @@
 
 @keyframes fadeup {
     from { top: 20%; opacity: 0.1; }
-    to { top: 15%; opacity: 1 }
+    to { top: 10%; opacity: 1 }
 }
 @-moz-keyframes fadeup {
     from { top: 30%; opacity: 0.1; }
-    to { top: 15%; opacity: 1 }
+    to { top: 10%; opacity: 1 }
 }
 
 .home-blue-side h1 {

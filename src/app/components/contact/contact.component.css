@@ -29,18 +29,46 @@
     animation-duration: 1s;
 }
 
-.single-project {
-    position: relative;
-    width: 100%;
-    height: 00px;
-    padding: 5px;
-    /* overflow: hidden; */
+form div {
+    padding: 20px;
 }
 
-.single-project img {
+.projects-list input, .projects-list textarea {
+    width: 100%;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.projects-list input {
+    height: 50px;
+    border: none;
+}
+
+.projects-list textarea {
+    height: 150px;
+    min-height: 100px;
+    max-height: 200px;
+    resize: vertical;
+    border: none;
+}
+
+.projects-list button {
+    width: 100%;
+    height: 50px;
+    background-color: #ececec;
+    color: #222222;
+    border: none;
+    border-radius: 5px;
+}
+
+.projects-list button:hover {
+    background-color: rgba(43, 203, 235, 0.7);
+}
+
+/* .single-project img {
     width: 100%;
     height: 100%;
-}
+} */
 
 .home-blue-side {
     position: relative;
@@ -48,7 +76,6 @@
     height: 80%;
     background-color: rgba(43, 203, 235, 0.7);
     padding: 20px;
-    /* left: 10px; */
     top: 10%;
     box-shadow: 0 3px 10px #222222;
     animation: fadeup;
