@@ -110,3 +110,20 @@
     to { top: 15%; opacity: 1 }
 }
 
+.opening {
+    color: #ececec;
+}
+
+.tag {
+    color: #00a0c0;
+}
+
+.value {
+    color: #16681a;
+}
+
+.value a {
+    text-decoration: none;
+    color: #16681a;
+}
+
