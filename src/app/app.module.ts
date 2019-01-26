@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { SliderModule } from 'angular-image-slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactComponent } from './components/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    SliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

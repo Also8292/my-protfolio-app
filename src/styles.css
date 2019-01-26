@@ -1,2 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+@media screen and (max-width: 800px) {
+    .home-dark-side {
+        display: none;
+    }
+
+    .home-blue-side {
+        display: none;
+    }
+    /* .code-example {
+        position: relative;
+        width: 60%;
+        height: 80%;
+        /* top: 10%; */
+        /* left: 250px; */
+        /* overflow: hidden;
+        animation: fadeup;
+        animation-duration: 1s; 
+    } */
+}
