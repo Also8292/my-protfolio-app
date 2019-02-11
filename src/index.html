@@ -9,20 +9,33 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/drawer.min.css">
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="../../assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
-<body>
+<body  id="canvas" style="position: absolute; z-index: 12;">
   <app-root></app-root>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/drawer.min.js" charset="utf-8"></script>
-    <script>
-      $(document).ready(function() {
-        $('.drawer').drawer();
-      });
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/drawer.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.drawer').drawer();
+    });
+  </script>
+
+  <!-- Main library -->
+  <script src="assets/js/lineanimations/three.min.js"></script>
+      
+  <!-- Helpers -->
+  <script src="assets/js/lineanimations/projector.js"></script>
+  <script src="assets/js/lineanimations/canvas-renderer.js"></script>
+
+  <!-- Visualitzation adjustments -->
+  <script src="assets/js/lineanimations/3d-lines-animation.js"></script>
+
+  <!-- Animated background color -->
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> -->
+  <script src="assets/js/lineanimations/color.js"></script>
 </body>
 </html>
