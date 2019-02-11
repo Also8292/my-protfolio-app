@@ -1,7 +1,7 @@
 .home {
     position: absolute;
     height: 100%;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     padding: 0;
 }
 
@@ -10,7 +10,8 @@
     padding-right: 20px;
     width: 65%;
     height: 100%;
-    background-image: url(../../../assets/images/hero.jpg);
+    /* background-image: url(../../../assets/images/hero.jpg); */
+    background-color: rgba(36, 36, 36, 0.9); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +49,6 @@
     height: 80%;
     background-color: rgba(43, 203, 235, 0.7);
     padding: 20px;
-    /* left: 10px; */
     top: 10%;
     box-shadow: 0 3px 10px #222222;
     animation: fadeup;
